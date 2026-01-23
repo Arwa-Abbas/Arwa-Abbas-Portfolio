@@ -1,0 +1,53 @@
+
+
+.particle {
+  animation: twinkleAnimation ease-in-out infinite;
+}
+
+.floatIcon {
+  animation: floatAnimation 6s ease-in-out infinite;
+}
+
+.orbitingRing {
+  animation: spinAnimation linear infinite;
+}
+
+.pulseBlob {
+  animation: pulseAnimation 4s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+  0%, 100% { 
+    transform: translateY(0) translateX(0) rotate(0deg);
+  }
+  25% { 
+    transform: translateY(-10px) translateX(5px) rotate(3deg);
+  }
+  50% { 
+    transform: translateY(-20px) translateX(-5px) rotate(-3deg);
+  }
+  75% { 
+    transform: translateY(-10px) translateX(3px) rotate(2deg);
+  }
+}
+
+@keyframes twinkleAnimation {
+  0%, 100% { 
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% { 
+    opacity: 0.8;
+    transform: scale(1);
+  }
+}
+
+@keyframes spinAnimation {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes pulseAnimation {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.25; }
+}
