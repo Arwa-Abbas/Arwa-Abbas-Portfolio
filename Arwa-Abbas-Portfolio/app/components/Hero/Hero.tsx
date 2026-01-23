@@ -52,10 +52,10 @@ export default function Hero() {
           <p className="text-violet-600 dark:text-violet-400 font-semibold text-lg md:text-xl tracking-wide mb-4">
             Hello, I'm
           </p>
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
+          <h1 className="text-3xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
             Arwa Abbas
           </h1>
-          <p className="text-2xl md:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-6">
+          <p className="text-xl md:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-6">
             AI Engineer & Full Stack Developer
           </p>
         </div>
@@ -148,10 +148,10 @@ export default function Hero() {
 
           {/* Main */}
           <div className="space-y-5">
-            <p className="text-violet-600 dark:text-violet-400 font-semibold text-xl md:text-2xl tracking-wide animate-fade-in">
+            <p className="text-violet-600 dark:text-violet-400 font-semibold text-xl md:text-xl tracking-wide animate-fade-in">
               Hello, I'm
             </p>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-gray-900 dark:text-white leading-tight animate-fade-in-up">
+            <h1 className="text-xl md:text-7xl lg:text-l font-bold text-gray-900 dark:text-white leading-tight animate-fade-in-up">
               Arwa Abbas
             </h1>
             <div className="h-16 flex items-center justify-center">
@@ -163,7 +163,7 @@ export default function Hero() {
           </div>
           
           {/* Description */}
-          <p className="text-gray-600 dark:text-gray-400 text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto leading-relaxed font-light animate-fade-in">
+          <p className="text-gray-600 dark:text-gray-400 text-lg md:text-xl lg:text-xl max-w-4xl mx-auto leading-relaxed font-light animate-fade-in">
             Computer Science Student passionate about Data Science, AI & Full Stack Development. 
             Building intelligent solutions through data-driven approaches.
           </p>
@@ -179,7 +179,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-violet-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </a>
             <a
-              href="/components/contact"
+              href="#contact"
               className="px-10 py-4 bg-white dark:bg-gray-800 border-2 border-violet-300 dark:border-violet-700 text-gray-900 dark:text-white rounded-full font-semibold text-lg shadow-lg hover:shadow-xl hover:border-violet-500 dark:hover:border-violet-500 transition-all duration-300 hover:scale-105"
             >
               Contact Me

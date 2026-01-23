@@ -10,7 +10,7 @@ const navItems = [
   { name: 'Skills', href: '#skills' },
   { name: 'Certifications', href: '/components/certifications' },
   { name: 'Projects', href: 'components/projects' },
-  { name: 'Contact', href: 'components/contact' },
+  { name: 'Contact', href: '#contact' },
 ];
 
 function Navbar() {

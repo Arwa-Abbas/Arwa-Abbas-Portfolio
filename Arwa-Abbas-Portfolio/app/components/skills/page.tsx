@@ -265,7 +265,7 @@ export default function Skills() {
         </div>
 
         {/* Category*/}
-        <div className="flex flex-wrap justify-center gap-3 mb-12 pt-6">
+        <div className="flex flex-wrap justify-center gap-3 mb-12">
           {categories.map((category) => (
             <button
               key={category}
@@ -285,7 +285,7 @@ export default function Skills() {
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-6">
           {filteredSkills.map((skill) => {
             const SkillIcon = skill.icon;
-            const colors = colorVariants[skill.color]; // No more TypeScript error!
+            const colors = colorVariants[skill.color]; 
             const isHovered = hoveredSkill === skill.name;
 
             return (
@@ -296,7 +296,7 @@ export default function Skills() {
                 onMouseLeave={() => setHoveredSkill(null)}
               >
                 <div
-                  className={`relative w-30 h-30 rounded-full ${colors.bg} flex items-center justify-center border-3 ${colors.border} transition-all duration-400 group-hover:shadow-xl group-hover:scale-105`}
+                  className={`relative w-25 h-25 rounded-full ${colors.bg} flex items-center justify-center border-3 ${colors.border} transition-all duration-400 group-hover:shadow-xl group-hover:scale-105`}
                 >
                   <div className="w-10 h-10 flex items-center justify-center">
                     <SkillIcon
