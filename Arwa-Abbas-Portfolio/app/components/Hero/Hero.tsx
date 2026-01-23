@@ -30,17 +30,6 @@ export default function Hero() {
     }
   }, [index, text, fullText, isClient]);
 
-  useEffect(() => {
-    if (!isClient) return;
-
-    const handleMouseMove = (e) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-    };
-    
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, [isClient]);
-
   const [particlePositions] = useState(() => 
     Array.from({ length: 20 }, () => ({
       left: Math.random() * 100,

@@ -1,6 +1,6 @@
 //home
 'use client';
-import Hero from './components/Hero/Hero';
+import Hero from './components/hero/Hero';
 import Contact from './components/contact/page';
 import Projects from './components/Projects';
 import Skills from './components/skills/page';
