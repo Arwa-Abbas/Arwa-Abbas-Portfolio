@@ -6,10 +6,11 @@ import Link from 'next/link';
 const allProjects = [
   {
     id: 1,
-    title: 'NexoOps - Intelligent Network Management Systems',
+    title: 'NetOps - Intelligent Network Management Systems',
     description: 'Intelligent network management platform that analyzes raw network logs, classifies alerts, summarizes events, and provides a ChatOps assistant for real-time diagnosis.',
     tags: ['Python', 'NLP', 'ML Algorithms', 'React', 'Flask', 'ChatBot'],
-    github: 'https://github.com/Arwa-Abbas/NexoOps--Intelligent-Network-Management-System',
+    github: 'https://github.com/Arwa-Abbas/NetOps--Intelligent-Network-Management-System',
+    live: ' https://net-ops-intelligent-network-managem-eight.vercel.app/'
   },
   {
     id: 2,

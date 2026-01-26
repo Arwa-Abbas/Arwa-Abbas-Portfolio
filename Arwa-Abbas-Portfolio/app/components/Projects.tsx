@@ -6,10 +6,11 @@ import Link from 'next/link';
 const featuredProjects = [
   {
     id: 1,
-    title: 'NexoOps - Intelligent Network Management Systems',
-    description: 'NexoOps is an intelligent network management platform that analyzes raw network logs, classifies alerts, summarizes events, and provides a ChatOps assistant for real-time diagnosis. It combines machine learning, natural language processing, and diagnostic tools to simplify network monitoring.',
+    title: 'NetOps - Intelligent Network Management Systems',
+    description: 'NetOps is an intelligent network management platform that analyzes raw network logs, classifies alerts, summarizes events, and provides a ChatOps assistant for real-time diagnosis. It combines machine learning, natural language processing, and diagnostic tools to simplify network monitoring.',
     tags: ['Python', 'NLP', 'ML Algorithms', 'React', 'Flask', 'ChatBot'],
-    github: 'https://github.com/Arwa-Abbas/NexoOps--Intelligent-Network-Management-System',
+    github: 'https://github.com/Arwa-Abbas/NetOps--Intelligent-Network-Management-System',
+    live: ' https://net-ops-intelligent-network-managem-eight.vercel.app/'
   },
   {
     id: 2,
