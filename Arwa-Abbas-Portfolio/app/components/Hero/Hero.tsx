@@ -11,7 +11,7 @@ const socialLinks = [
 
 export default function Hero() {
   const [text, setText] = useState('');
-  const fullText = 'AI Engineer & Full Stack Developer';
+  const fullText = 'Aspiring Data Scientist & AI Engineer';
   const [index, setIndex] = useState(0);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isClient, setIsClient] = useState(false);
@@ -56,7 +56,7 @@ export default function Hero() {
             Arwa Abbas
           </h1>
           <p className="text-xl md:text-4xl font-semibold text-gray-700 dark:text-gray-300 mb-6">
-            AI Engineer & Full Stack Developer
+            Aspiring Data Scientist & AI Engineer
           </p>
         </div>
       </section>

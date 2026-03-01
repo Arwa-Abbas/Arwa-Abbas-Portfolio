@@ -6,18 +6,18 @@ import Link from 'next/link';
 const allProjects = [
   {
     id: 1,
+    title: 'Multi-Channel Customer Churn & Retention System',
+    description: 'An end-to-end churn analytics platform combining Survival Analysis (Cox PH) and XGBoost to predict at-risk customers and revenue impact. Features RFM segmentation, CLV prediction, interactive React dashboard, Power BI integration, automated ML pipelines with Airflow, MLflow tracking, and Docker deployment.',
+    tags: ['Python', 'FastAPI', 'React', 'PostgreSQL', 'XGBoost', 'Lifelines', 'MLflow', 'Airflow', 'Docker', 'Power BI'],
+    github: 'https://github.com/Arwa-Abbas/Multi-Channel-Customer-Churn-And-Retention-System'
+  },
+  {
+    id: 2,
     title: 'NetOps - Intelligent Network Management Systems',
     description: 'Intelligent network management platform that analyzes raw network logs, classifies alerts, summarizes events, and provides a ChatOps assistant for real-time diagnosis.',
     tags: ['Python', 'NLP', 'ML Algorithms', 'React', 'Flask', 'ChatBot'],
     github: 'https://github.com/Arwa-Abbas/NetOps--Intelligent-Network-Management-System',
-    live: ' https://net-ops-intelligent-network-managem-eight.vercel.app/'
-  },
-  {
-    id: 2,
-    title: 'Pharmora',
-    description: 'Full-stack web application for pharmacy services, medical appointments, and online medicine ordering with role-based dashboards for patients, doctors, pharmacists, suppliers, and admins.',
-    tags: ['PERN Stack (PostgreSQL, ExpressJS, React, NodeJs)', 'REST APIs', 'Vite'],
-    github: 'https://github.com/Arwa-Abbas/Pharmora',
+    live: 'https://net-ops-intelligent-network-managem-eight.vercel.app/'
   },
   {
     id: 3,
@@ -28,6 +28,13 @@ const allProjects = [
   },
   {
     id: 4,
+    title: 'Pharmora',
+    description: 'Full-stack web application for pharmacy services, medical appointments, and online medicine ordering with role-based dashboards for patients, doctors, pharmacists, suppliers, and admins.',
+    tags: ['PERN Stack (PostgreSQL, ExpressJS, React, NodeJs)', 'REST APIs', 'Vite'],
+    github: 'https://github.com/Arwa-Abbas/Pharmora',
+  },
+  {
+    id: 5,
     title: 'Customer Segmentation Dashboard',
     description: 'Interactive web application for customer segmentation and analytics using machine learning clustering algorithms with visualization.',
     tags: ['Python', 'Matplotlib', 'Numpy', 'Pandas', 'Scikit-learn', 'Streamlit'],
@@ -35,7 +42,7 @@ const allProjects = [
     live: 'https://customer-segmentation-dashboard-km6okbks65ksvscisng3ty.streamlit.app/'
   },
   {
-    id: 5,
+    id: 6,
     title: 'PakWeatherLens Dashboard',
     description: 'PakWeatherLens is a real-time weather dashboard that visually presents current and past weather data across popular cities in Pakistan. It combines real-time API data with beautiful visualizations and pixel-art UI elements.',
     tags: ['Python','Matplotlib', 'Seaborn', 'Pandas','Streamlit'],
@@ -43,7 +50,7 @@ const allProjects = [
     live: 'https://pakweatherlens-dashboard-kjr8em5ataaebp6qpjsjyt.streamlit.app/'
   },
   {
-    id: 6,
+    id: 7,
     title: 'ForestAI - Forest Classification Dashboard',
     description: 'An interactive machine learning dashboard that predicts forest cover type using the Covertype dataset.The backend is powered by Flask and XGBoost, while the frontend provides an easy interface for visualization and predictions.',
     tags: ['Python','JavaScript','Pandas','Flask','HTML/CSS','ML Algorithms & Feature Engineering'],

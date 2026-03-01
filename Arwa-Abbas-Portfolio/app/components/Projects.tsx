@@ -6,18 +6,18 @@ import Link from 'next/link';
 const featuredProjects = [
   {
     id: 1,
+    title: 'Multi-Channel Customer Churn & Retention System',
+    description: 'An end-to-end churn analytics platform combining Survival Analysis (Cox PH) and XGBoost to predict at-risk customers and revenue impact. Features RFM segmentation, CLV prediction, interactive React dashboard, and Power BI integration. Includes automated ML pipelines with Airflow, MLflow tracking, and Docker deployment.',
+    tags: ['Python', 'FastAPI', 'React', 'PostgreSQL', 'XGBoost', 'Lifelines', 'MLflow', 'Airflow', 'Docker', 'Power BI'],
+    github: 'https://github.com/Arwa-Abbas/Multi-Channel-Customer-Churn-And-Retention-System'
+  },
+  {
+    id: 2,
     title: 'NetOps - Intelligent Network Management Systems',
     description: 'NetOps is an intelligent network management platform that analyzes raw network logs, classifies alerts, summarizes events, and provides a ChatOps assistant for real-time diagnosis. It combines machine learning, natural language processing, and diagnostic tools to simplify network monitoring.',
     tags: ['Python', 'NLP', 'ML Algorithms', 'React', 'Flask', 'ChatBot'],
     github: 'https://github.com/Arwa-Abbas/NetOps--Intelligent-Network-Management-System',
-    live: ' https://net-ops-intelligent-network-managem-eight.vercel.app/'
-  },
-  {
-    id: 2,
-    title: 'Pharmora',
-    description: 'A full-stack web application for pharmacy services, medical appointments, and online medicine ordering. It allows patients to browse medicines, manage carts and orders, and view available doctors and pharmacists. Each user - Patient, Doctor, Pharmacist, Supplier, and Admin has access to their own dedicated dashboard with role-specific features.',
-    tags: ['PERN Stack (PostgreSQL, ExpressJS, React, NodeJs)', 'REST APIs', 'Vite'],
-    github: 'https://github.com/Arwa-Abbas/Pharmora',
+    live: 'https://net-ops-intelligent-network-managem-eight.vercel.app/'
   },
   {
     id: 3,
@@ -28,11 +28,10 @@ const featuredProjects = [
   },
   {
     id: 4,
-    title: 'Customer Segmentation Dashboard',
-    description: 'A modern, interactive web application for customer segmentation and analytics using machine learning clustering algorithms.',
-    tags: ['Python', 'Matplotlib', 'Numpy', 'Pandas', 'Scikit-learn', 'Streamlit'],
-    github: 'https://github.com/Arwa-Abbas/Customer-Segmentation-Dashboard',
-    live: 'https://customer-segmentation-dashboard-km6okbks65ksvscisng3ty.streamlit.app/', 
+    title: 'Pharmora',
+    description: 'A full-stack web application for pharmacy services, medical appointments, and online medicine ordering. It allows patients to browse medicines, manage carts and orders, and view available doctors and pharmacists. Each user - Patient, Doctor, Pharmacist, Supplier, and Admin has access to their own dedicated dashboard with role-specific features.',
+    tags: ['PERN Stack (PostgreSQL, ExpressJS, React, NodeJs)', 'REST APIs', 'Vite'],
+    github: 'https://github.com/Arwa-Abbas/Pharmora',
   },
 ];
 

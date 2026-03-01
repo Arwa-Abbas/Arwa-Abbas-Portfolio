@@ -20,6 +20,9 @@ import {
   Box,
   BarChart3,
   Sparkles,
+  Container,
+  Workflow,
+  ChartBar,
 } from 'lucide-react';
 import { useState } from 'react';
 
@@ -152,7 +155,21 @@ const allSkills: SkillItem[] = [
     description: 'NoSQL database',
   },
   {
+    name: 'SQL Server',
+    icon: Database,
+    category: 'Databases',
+    color: 'orange',
+    description: 'Microsoft SQL database',
+  },
+  {
     name: 'PostgreSQL',
+    icon: Server,
+    category: 'Databases',
+    color: 'orange',
+    description: 'Relational database',
+  },
+  {
+    name: 'Supabase',
     icon: Server,
     category: 'Databases',
     color: 'orange',
@@ -181,11 +198,54 @@ const allSkills: SkillItem[] = [
     description: 'Data visualization',
   },
   {
+    name: 'Seaborn',
+    icon: LineChart,
+    category: 'Data Science & AI',
+    color: 'purple',
+    description: 'Data visualization',
+  },
+  {
     name: 'Scikit-learn',
     icon: Brain,
     category: 'Data Science & AI',
     color: 'purple',
     description: 'Machine learning',
+  },
+  // Tools & Platforms
+  {
+    name: 'Docker',
+    icon: Container,
+    category: 'Tools & Platforms',
+    color: 'pink',
+    description: 'Containerization',
+  },
+  {
+    name: 'Git',
+    icon: GitBranch,
+    category: 'Tools & Platforms',
+    color: 'pink',
+    description: 'Version control',
+  },
+  {
+    name: 'GitHub',
+    icon: GitBranch,
+    category: 'Tools & Platforms',
+    color: 'pink',
+    description: 'Code hosting & collaboration',
+  },
+  {
+    name: 'Apache Airflow',
+    icon: Workflow,
+    category: 'Tools & Platforms',
+    color: 'pink',
+    description: 'Pipeline orchestration',
+  },
+  {
+    name: 'Power BI',
+    icon: ChartBar,
+    category: 'Tools & Platforms',
+    color: 'pink',
+    description: 'Business intelligence',
   },
 ];
 
@@ -264,7 +324,7 @@ export default function Skills() {
           </p>
         </div>
 
-        {/* Category*/}
+        {/* Category Filters */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
           {categories.map((category) => (
             <button
